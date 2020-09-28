@@ -5,6 +5,10 @@
     max-width: 100%;
 }
 
+h2{
+    font-weight: bold;
+}
+
 nav .container{
     padding: 0 210px;
 }
@@ -14,4 +18,156 @@ nav .container{
     background-size: 100%;
     height: 600px;
     background-position-y: -240px;
+}
+
+#landing-p {
+    padding: 200px;
+}
+/*box du divider*/
+.divider-custom {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* le format du divider */
+  .divider-custom .divider-custom-line {
+    width: 100%;
+    height: 1.1px;
+    border-radius: 1rem;
+  }
+  /* la couleur du divider */
+  .divider-custom.divider-light .divider-custom-line {
+    background-color: #fff;
+  }
+  /* La ligne avec le content tablette*/
+  #content{
+    height: 500px;
+    }
+  /* box du divider 2*/
+  .divider-custom2 {
+    margin: 135px 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  /* format divider 2*/
+  .divider-custom2 .divider-custom-line2 {
+    width: 50%;
+    height: 1.1px;
+    border-radius: 1rem;
+  }
+  /* couleur divider 2 */
+  .divider-custom2.divider-light .divider-custom-line2{
+      background-color: lightgray;
+  }
+
+  /* Image de la tablette */
+  #tablette {
+    background-image: url(img/image1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  #content-2 {
+      height: 500px;
+  }
+
+    /* box du divider 3*/
+  .divider-custom3 {
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  /* format divider 3*/
+  .divider-custom3 .divider-custom-line3 {
+    width: 50%;
+    height: 1.1px;
+    border-radius: 1rem;
+  }
+  /* couleur divider 3 */
+  .divider-custom3.divider-light .divider-custom-line3{
+      background-color: lightgray;
+  }
+
+/* image de l'ordinateur */
+  #ordi {
+    background-image: url(img/image2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+    /* Taille le la ligne pour content 3 */ 
+    #content-3 {
+      height: 400px;
+  }
+
+    /* box du divider 4*/
+  .divider-custom4 {
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  /* format divider 4*/
+  .divider-custom4 .divider-custom-line4 {
+    width: 50%;
+    height: 1.1px;
+    border-radius: 1rem;
+  }
+  /* couleur divider 4 */
+  .divider-custom4.divider-light .divider-custom-line4{
+      background-color: lightgray;
+  }
+
+  #phone {
+    background-image: url(img/image3.png) , url(img/image4.png);
+    background-position: 125px 220px, 399px 85px;
+    background-repeat: no-repeat, no-repeat;
+
+    }
+
+  #google {
+      font-weight: bold;
+  }
+
+  #content-4{
+      height: 290px;
+  }
+
+  #connect {
+    background-image: url(img/image2.jpg);
+    background-size: 2000px;
+    background-position: -186px -515px;;
+}
+
+  #connect-to {
+    padding-left: 184px;
+    font-size: 47px;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+}
+
+  #buttons {
+    margin-left: 285px ;
+}
+
+  #footer-box {
+    height: 150px;
+}
+
+#footer {
+    padding-top: 60px;
+    padding-left: 170px;
+}
+
+
+  #copyright {
+    margin-left: -314px;
+    font-size: 13px;
+    margin-top: 20px;
 }
