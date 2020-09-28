@@ -41,6 +41,7 @@ nav .container{
   .divider-custom.divider-light .divider-custom-line {
     background-color: #fff;
   }
+<<<<<<< HEAD
   /* La ligne avec le content tablette*/
   #content{
     height: 500px;
@@ -48,6 +49,14 @@ nav .container{
   /* box du divider 2*/
   .divider-custom2 {
     margin: 135px 0 1.5rem;
+=======
+  #content{
+    height: 350px;
+    }
+  /* box du divider 2*/
+  .divider-custom2 {
+    margin: 60px 0 1.5rem;
+>>>>>>> e0398c7fcd1211b621ab68e4b4d7f8de82e0f556
     width: 100%;
     display: flex;
     justify-content: start;
@@ -61,14 +70,21 @@ nav .container{
   }
   /* couleur divider 2 */
   .divider-custom2.divider-light .divider-custom-line2{
+<<<<<<< HEAD
       background-color: lightgray;
   }
 
   /* Image de la tablette */
+=======
+      background-color: black;
+  }
+
+>>>>>>> e0398c7fcd1211b621ab68e4b4d7f8de82e0f556
   #tablette {
     background-image: url(img/image1.png);
     background-repeat: no-repeat;
     background-size: 100%;
+<<<<<<< HEAD
   }
 
   #content-2 {
@@ -171,3 +187,10 @@ nav .container{
     font-size: 13px;
     margin-top: 20px;
 }
+=======
+   
+  }
+
+  
+  
+>>>>>>> e0398c7fcd1211b621ab68e4b4d7f8de82e0f556
